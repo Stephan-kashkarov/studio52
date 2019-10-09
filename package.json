@@ -1,0 +1,48 @@
+{
+  "name": "studio52",
+  "version": "0.1.0",
+  "description": "A portfolio website created for Channel Campisi",
+  "private": true,
+  "dependencies": {
+    "@types/jest": "24.0.18",
+    "@types/node": "12.7.12",
+    "@types/react": "16.9.5",
+    "@types/react-dom": "16.9.1",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-scripts": "3.2.0",
+    "typescript": "3.6.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "test:tsc": "tsc -p tsconfig.test.json -w",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stephan-kashkarov/studio52.git"
+  },
+  "author": "stephan-kashkarov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stephan-kashkarov/studio52/issues"
+  },
+  "homepage": "https://github.com/Stephan-kashkarov/studio52#readme"
+}
