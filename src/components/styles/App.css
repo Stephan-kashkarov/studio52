@@ -1,7 +1,7 @@
-html, body, .App {
-  min-height: 100%;
+html {
+  height: 100%;
 }
-.App {
-  background-color: #454b51;
+body, .App {
   min-height: 100%;
+  background-color: #454b51 !important;
 }
