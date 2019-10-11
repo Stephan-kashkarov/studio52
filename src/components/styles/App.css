@@ -5,3 +5,19 @@ body, .App {
   min-height: 100%;
   background-color: #454b51 !important;
 }
+
+.logo-center {
+  padding: 7% 0;
+  text-align: center;
+  height: 100%;
+}
+
+.svg-logo {
+  height: 80%;
+}
+
+footer {
+  text-align: center;
+  color: #777;
+  font-weight: 200;
+}

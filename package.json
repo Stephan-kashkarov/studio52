@@ -12,6 +12,7 @@
     "react": "^16.10.2",
     "react-bootstrap": "^1.0.0-beta.14",
     "react-dom": "^16.10.2",
+    "react-router-dom": "^5.1.2",
     "react-scripts": "3.2.0",
     "typescript": "3.6.4"
   },
@@ -46,5 +47,8 @@
   "bugs": {
     "url": "https://github.com/Stephan-kashkarov/studio52/issues"
   },
-  "homepage": "https://github.com/Stephan-kashkarov/studio52#readme"
+  "homepage": "https://github.com/Stephan-kashkarov/studio52#readme",
+  "devDependencies": {
+    "@types/react-router-dom": "^5.1.0"
+  }
 }
