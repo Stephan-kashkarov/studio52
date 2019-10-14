@@ -17,7 +17,7 @@ const App: FC = () => (
 		<Switch>
 			<Route path='/portfolio' component={Portfolio} />
 			<Route path='/about'>
-
+				
 			</Route>
 			<Route path='/contact'>
 

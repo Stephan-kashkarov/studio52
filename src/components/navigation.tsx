@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 
 // Assets
@@ -18,25 +18,25 @@ const Navigation: FC = () => (
                 />
             </Navbar.Brand>
             <Nav className="ml-auto">
-                <Nav.Link href="" className='nav-elem'>
-                    {/* <Link to="/"> */}
+                <Nav.Link href="">
+                    <Link to="/" className='nav-elem'>
                         Home
-                    {/* </Link> */}
+                    </Link>
                 </Nav.Link>
-                <Nav.Link href="" className='nav-elem'>
-                    {/* <Link to="/portfolio"> */}
+                <Nav.Link href="">
+                    <Link to="/portfolio" className='nav-elem'>
                         Portfolio
-                    {/* </Link> */}
+                    </Link>
                 </Nav.Link>
-                <Nav.Link href="" className='nav-elem'>
-                    {/* <Link to="/about"> */}
+                <Nav.Link href="">
+                    <Link to="/about" className='nav-elem'>
                         About
-                    {/* </Link> */}
+                    </Link>
                 </Nav.Link>
-                <Nav.Link href="" className='nav-elem'>
-                    {/* <Link to="/contact"> */}
+                <Nav.Link href="">
+                    <Link to="/contact" className='nav-elem'>
                         Contact Us
-                    {/* </Link> */}
+                    </Link>
                 </Nav.Link>
             </Nav>
         </Container>
