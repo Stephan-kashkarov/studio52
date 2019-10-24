@@ -1,8 +1,10 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import {Container, Row, Col} from 'react-bootstrap'
+import {Container, Row, Col, Button} from 'react-bootstrap'
 import { Item } from './portfolio'
 import items from '../items.json'
+
+import './styles/page.css'
 
 function find(object: Array<Item>, key: number): Item {
     
@@ -37,6 +39,9 @@ const ItemPage = (prop: any) => {
                     <h1>{item.name}</h1>
                     <hr/>
                     <p>{item.description}</p>
+                    <Link to="/portfolio">
+                        <Button variant="secondary">Back</Button>
+                    </Link>
                 </Col>
             </Row>
         </Container>
