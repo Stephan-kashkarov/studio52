@@ -32,18 +32,11 @@ const App: FC = () => (
 			<Route path='/portfolio'>
 				<Portfolio items={items}/>
 			</Route>
-			<Route path='/about'>
-				
-			</Route>
 			<Route path='/contact'>
 
 			</Route>
-			<Route path='/pages/:id' component={ItemPage}>
-
-			</Route>
-			<Route path='/'>
-				<Home/>
-			</Route>
+			<Route path='/pages/:id' component={ItemPage}/>
+			<Route path='/' component={Home}/>
 		</Switch>
 		<hr/>
 		<footer>
