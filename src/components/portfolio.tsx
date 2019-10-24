@@ -5,6 +5,7 @@ import {Row, Col, Container} from 'react-bootstrap';
 import "./styles/portfolio.css"
 
 export type Item = {
+    id: number
     name: string
     description: string
     image: string
@@ -26,8 +27,10 @@ const Portfolio = (items: PortfolioProps) =>(
                     <Row className="card-row container-top">
                         {items.map((item: Item) => {
                             return (
-                                <Col>
-                                    <ItemCard item={item}/>
+                                <Col className='centered column'>
+                                    <Link to={`/pages/${item.id}`}>
+                                        <ItemCard item={item}/>
+                                    </Link>
                                 </Col>
                             )
                         })}
@@ -42,13 +45,15 @@ const ItemCard = (item: ItemCardProps) => (
     <div className="-card">
         <img className="card-image" src={require(`./images/${item.item.image}`)}/>
         <div className="card-overlay">
-            <h3 className="card-text">
-                {item.item.name}
-            </h3>
-            <hr/>
-            <p className="card-text">
-                {item.item.description}
-            </p>
+            <div className="card-text">
+                <h3>
+                    {item.item.name}
+                </h3>
+                <hr/>
+                <p>
+                    Click for more
+                </p>
+            </div>
         </div>
     </div>
 )

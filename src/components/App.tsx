@@ -2,15 +2,13 @@ import React, {FC} from 'react';
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Navigation from './navigation';
 import Portfolio, { Item } from './portfolio';
+import Home from './home';
+import ItemPage from './page'
 
 // Styles
-import { Container } from 'react-bootstrap';
 import './styles/App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import itemdata from "../items.json";
-
-// Images
-import logo from './images/logo.svg';
 
 let items: Item[][] = []
 
@@ -40,10 +38,11 @@ const App: FC = () => (
 			<Route path='/contact'>
 
 			</Route>
+			<Route path='/pages/:id' component={ItemPage}>
+
+			</Route>
 			<Route path='/'>
-				<Container className='logo-center'>
-					<img className='svg-logo' src={logo} alt="Studio 52 logo"/>
-				</Container>
+				<Home/>
 			</Route>
 		</Switch>
 		<hr/>
