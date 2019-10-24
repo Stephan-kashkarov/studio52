@@ -2,7 +2,9 @@ import React, { FC, Component } from 'react';
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 import {Row, Col, Container} from 'react-bootstrap';
 
-type Item = {
+import "./styles/portfolio.css"
+
+export type Item = {
     name: string
     description: string
     image: string
@@ -13,44 +15,42 @@ type ItemCardProps = {
 }
 
 type PortfolioProps = {
-    items: Array<Item>
+    items: Item[][]
 }
 
-type PortfolioState = {
-    page: number
-    pageSize: number
-}
 
-class Portfolio extends Component<PortfolioProps, PortfolioState>{
+const Portfolio = (items: PortfolioProps) =>(
+    <Container className="cards">
+        { items.items.map((items: Item[]) => {
+                return (
+                    <Row className="card-row container-top">
+                        {items.map((item: Item) => {
+                            return (
+                                <Col>
+                                    <ItemCard item={item}/>
+                                </Col>
+                            )
+                        })}
+                    </Row>
+                )
+            }
+        )}
+    </Container>
+)
 
-    constructor(props: PortfolioProps){
-        super(props)
-
-    }
-
-    render() {
-        const show: Array<ItemCard> = []
-        
-        for (let i = this.state.page; i < this.state.page + this.state.pageSize; ++i) {
-            show.push(<ItemCard item={this.props.items[i]} />)
-        }
-        return (
-            <Container>
-                { show }
-            </Container>
-        )
-    }   
-}
-
-class ItemCard extends Component<ItemCardProps> {
-
-    constructor(props: ItemCardProps) {
-        super(props)
-    }
-
-    render () {
-        return <h1>hello</h1>
-    }
-}
-
+const ItemCard = (item: ItemCardProps) => (
+    <div className="-card">
+        <img className="card-image" src={require(`./images/${item.item.image}`)}/>
+        <div className="card-overlay">
+            <h3 className="card-text">
+                {item.item.name}
+            </h3>
+            <hr/>
+            <p className="card-text">
+                {item.item.description}
+            </p>
+        </div>
+    </div>
+)
+   
 export default Portfolio;
