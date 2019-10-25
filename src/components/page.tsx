@@ -10,6 +10,7 @@ function find(object: Array<Item>, key: number): Item {
     
     for (let i = 0; i < object.length; ++i) {
         let item: Item = object[i]
+        console.log(item.id, key)
         if (item.id === key) {
             return item
         }
@@ -25,25 +26,20 @@ function find(object: Array<Item>, key: number): Item {
 }
 
 const ItemPage = (prop: any) => {
-    let item: Item = find(items, prop.match.params)
-    
-
-
+    let item: Item = find(items, +prop.match.params.id)
     return (
-        <Container>
-            <Row>
-                <Col className="image-col">
-                    <img src={require(`./images/${item.image}`)}/>
-                </Col>
-                <Col className="text-col">
-                    <h1>{item.name}</h1>
-                    <hr/>
-                    <p>{item.description}</p>
-                    <Link to="/portfolio">
-                        <Button variant="secondary">Back</Button>
-                    </Link>
-                </Col>
-            </Row>
+        <Container className='content'>
+            <img src={require(`./images/pages/${item.image}`)}/>
+            <h1 className="text-light">
+                {item.name}
+            </h1>
+            <hr />
+            <p className="text-light">
+                {item.description}
+            </p>
+            <Link to="/portfolio">
+                <Button variant="secondary">Back</Button>
+            </Link>
         </Container>
     );
 }

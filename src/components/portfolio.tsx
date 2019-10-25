@@ -1,5 +1,5 @@
-import React, { FC, Component } from 'react';
-import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
+import React from 'react';
+import { Link } from 'react-router-dom';
 import {Row, Col, Container} from 'react-bootstrap';
 
 import "./styles/portfolio.css"
@@ -20,7 +20,7 @@ type PortfolioProps = {
 }
 
 
-const Portfolio = (items: PortfolioProps) =>(
+const Portfolio = (items: PortfolioProps) => (
     <Container className="cards">
         { items.items.map((items: Item[]) => {
                 return (
@@ -43,7 +43,7 @@ const Portfolio = (items: PortfolioProps) =>(
 
 const ItemCard = (item: ItemCardProps) => (
     <div className="-card">
-        <img className="card-image" src={require(`./images/${item.item.image}`)}/>
+        <img className="card-image" src={require(`./images/pages/${item.item.image}`)}/>
         <div className="card-overlay">
             <div className="card-text">
                 <h3>

@@ -1,0 +1,16 @@
+.text-content {
+    color: white;
+}
+
+.content {
+    padding: 50px 0 0 0;
+    height: 100%;
+}
+
+.content img {
+    width: 30%;
+    margin-right: 25px;
+    height: 100%;
+    /* margin-bottom: 25px; */
+    float: left;
+}

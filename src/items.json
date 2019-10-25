@@ -49,37 +49,37 @@
     },
     {
         "id": 8,
-        "name": "item - 4",
-        "description": "Blah blah blah",
-        "image": "raw_rain.png"
-    },
-    {
-        "id": 9,
         "name": "item - 9",
         "description": "Blah blah blah",
         "image": "raw_rain.png"
     },
     {
+        "id": 9,
+        "name": "item - 10",
+        "description": "Blah blah blah",
+        "image": "raw_rain.png"
+    },
+    {
         "id": 10,
-        "name": "item - 4",
+        "name": "item - 11",
         "description": "Blah blah blah",
         "image": "raw_rain.png"
     },
     {
         "id": 11,
-        "name": "item - 4",
+        "name": "item - 12",
         "description": "Blah blah blah",
         "image": "raw_rain.png"
     },
     {
         "id": 12,
-        "name": "item - 4",
+        "name": "item - 13",
         "description": "Blah blah blah",
         "image": "raw_rain.png"
     },
     {
         "id": 13,
-        "name": "item - 3",
+        "name": "item - 14",
         "description": "Blah blah blah",
         "image": "raw_rain.png"
     }

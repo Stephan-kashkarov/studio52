@@ -22,7 +22,7 @@ for (let i = 0; i < itemdata.length; i += 3) {
 		temp.push(x)
 
 	}
-	items.push(temp)
+	items.unshift(temp)
 }
 
 const App: FC = () => (
