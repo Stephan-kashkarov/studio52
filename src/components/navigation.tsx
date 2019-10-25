@@ -29,11 +29,6 @@ const Navigation: FC = () => (
                     </Link>
                 </Nav.Link>
                 <Nav.Link href="">
-                    <Link to="/about" className='nav-elem'>
-                        About
-                    </Link>
-                </Nav.Link>
-                <Nav.Link href="">
                     <Link to="/contact" className='nav-elem'>
                         Contact Us
                     </Link>

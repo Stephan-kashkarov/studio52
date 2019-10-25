@@ -1,0 +1,13 @@
+.logo-center {
+    color: white;
+}
+
+.no-text {
+    text-align: center;
+    color: white;
+    padding: 50px;
+}
+
+.no-text h1 {
+    margin: 30px;
+}

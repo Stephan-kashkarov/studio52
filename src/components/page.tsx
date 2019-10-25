@@ -27,21 +27,33 @@ function find(object: Array<Item>, key: number): Item {
 
 const ItemPage = (prop: any) => {
     let item: Item = find(items, +prop.match.params.id)
-    return (
-        <Container className='content'>
-            <img src={require(`./images/pages/${item.image}`)}/>
-            <h1 className="text-light">
-                {item.name}
-            </h1>
-            <hr />
-            <p className="text-light">
-                {item.description}
-            </p>
-            <Link to="/portfolio">
-                <Button variant="secondary">Back</Button>
-            </Link>
-        </Container>
-    );
+
+    if (item.description === "") {
+        return (
+            <Container className="no-text">
+                <h1>
+                    {item.name}
+                </h1>
+                <img src={require(`./images/pages/${item.image}`)} />
+            </Container>
+        )
+    } else {
+        return (
+            <Container className='content'>
+                <img src={require(`./images/pages/${item.image}`)}/>
+                <h1 className="text-light">
+                    {item.name}
+                </h1>
+                <hr />
+                <p className="text-light">
+                    {item.description}
+                </p>
+                <Link to="/portfolio">
+                    <Button variant="secondary">Back</Button>
+                </Link>
+            </Container>
+        );
+    }
 }
 
 export default ItemPage

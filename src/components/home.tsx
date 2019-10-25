@@ -4,6 +4,7 @@ import {Jumbotron, Container} from 'react-bootstrap';
 
 // Images
 import logo from './images/logo.svg';
+import './styles/home.css'
 
 const Home = () => (
     <Container className='logo-center'>

@@ -74,13 +74,7 @@
     {
         "id": 12,
         "name": "item - 13",
-        "description": "Blah blah blah",
-        "image": "raw_rain.png"
-    },
-    {
-        "id": 13,
-        "name": "item - 14",
-        "description": "Blah blah blah",
+        "description": "",
         "image": "raw_rain.png"
     }
 ]

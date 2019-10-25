@@ -19,7 +19,7 @@ for (let i = 0; i < itemdata.length; i += 3) {
 			break;
 		}
 		let x: Item  = itemdata[i+j]
-		temp.push(x)
+		temp.unshift(x)
 
 	}
 	items.unshift(temp)
