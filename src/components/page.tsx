@@ -1,5 +1,5 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import {Container, Button, Carousel} from 'react-bootstrap'
 import { Item } from './portfolio'
 import items from '../items.json'
@@ -30,9 +30,11 @@ const ItemPage = (prop: any) => {
 
     let imgs = <div></div>
 
-    if (item.image.length == 1) {
-        imgs = (<img src={require(`./images/pages/${item.image}`)} />)
+    if (item.image.length === 1) {
+        console.log(1)
+        imgs = (<img src={require(`./images/pages/${item.image[0]}`)} />)
     } else {
+        console.log(2)
         imgs = (
             <Carousel>
                 {item.image.map( (src_img) => (
@@ -45,7 +47,7 @@ const ItemPage = (prop: any) => {
     }
 
     let desc
-    if (item.description != "") {
+    if (item.description !== "") {
         desc = (<p className="text-light">
             {item.description}
         </p>)
@@ -53,30 +55,19 @@ const ItemPage = (prop: any) => {
         desc = (<div></div>)
     }
 
-    if (item.description === "") {
-        return (
-            <Container className="no-text">
-                <h1>
-                    {item.name}
-                </h1>
-                <img src={require(`./images/pages/${item.image}`)} />
-            </Container>
-        )
-    } else {
-        return (
-            <Container className='content'>
-                {imgs}
-                <h1 className="text-light">
-                    {item.name}
-                </h1>
-                <hr/>
-                {desc}
-                <Link to="/portfolio">
-                    <Button variant="secondary">Back</Button>
-                </Link>
-            </Container>
-        );
-    }
+    return (
+        <Container className='content'>
+            {imgs}
+            <h1 className="text-light">
+                {item.name}
+            </h1>
+            <hr/>
+            {desc}
+            <Link to="/portfolio">
+                <Button variant="secondary">Back</Button>
+            </Link>
+        </Container>
+    );
 }
 
 export default ItemPage

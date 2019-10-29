@@ -43,7 +43,7 @@ const Portfolio = (items: PortfolioProps) => (
 
 const ItemCard = (item: ItemCardProps) => (
     <div className="-card">
-        <img className="card-image" src={require(`./images/pages/${item.item.image}`)}/>
+        <img className="card-image" src={require(`./images/pages/${item.item.image[0]}`)}/>
         <div className="card-overlay">
             <div className="card-text">
                 <h3>

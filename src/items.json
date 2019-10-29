@@ -9,7 +9,7 @@
         "id": 1,
         "name": "Festival Typeface & Promotional Material",
         "description": "",
-        "image": ["Digital interface.svg", "Lineup.svg", "PortraitTypographyPoster.png"]
+        "image": ["Digitalinterface.svg", "Lineup.svg", "PortraitTypographyPoster.png"]
     },
     {
         "id": 2,
@@ -33,31 +33,31 @@
         "id": 5,
         "name": "Sammy Hosking Mue Branding",
         "description": "This Branding was created for a makeup enthusiast (MUE) who wanted to bring her brand to life. The pink eye shape reflects makeup in an abstract way and the watercolour texture intends to mimic a makeup substance, whichever the viewer sees (eg lipstick smudged on the page or blended eyeshadow). The soft pink colour reflects the femininity and blush, which can make the target audience feel content or carefree.",
-        "image": ["SHM logo final.png", "SHM_Business_Card.png", "SHM_Appointmentt_Card.png"]
+        "image": ["SHM_logo_final.png", "SHM_Business_Card.png", "SHM_Appointmentt_Card.png"]
     },
     {
         "id": 6,
         "name": "Indigenous Poster",
         "description": "",
-        "image": ["Poster - Final.png"]
+        "image": ["Poster.png"]
     },
     {
         "id": 7,
         "name": "Fashion Magazine",
         "description": "",
-        "image": ["Magazine A1 Mockup.png"]
+        "image": ["logo.png"]
     },
     {
         "id": 8,
         "name": "Mad Hatter Quote",
         "description": "",
-        "image": ["Typography Illustration.png"]
+        "image": ["TypographyIllustration.png"]
     },
     {
         "id": 9,
         "name": "Colour Theory Infographic",
         "description": "",
-        "image": ["Colour Theory Infographic copy.png"]
+        "image": ["logo.png"]
     }
 ]
 
