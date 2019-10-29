@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import {Container, Row, Col, Button} from 'react-bootstrap'
+import {Container, Button, Carousel} from 'react-bootstrap'
 import { Item } from './portfolio'
 import items from '../items.json'
 
@@ -20,13 +20,38 @@ function find(object: Array<Item>, key: number): Item {
         "name": "No Item",
         "description": `There is no item under this id,
         Please mesege the webdeveloper if this is a problem`,
-        "image": "logo.png"
+        "image": ["logo.png"]
     }
     return def
 }
 
 const ItemPage = (prop: any) => {
     let item: Item = find(items, +prop.match.params.id)
+
+    let imgs = <div></div>
+
+    if (item.image.length == 1) {
+        imgs = (<img src={require(`./images/pages/${item.image}`)} />)
+    } else {
+        imgs = (
+            <Carousel>
+                {item.image.map( (src_img) => (
+                    <Carousel.Item>
+                        <img src={src_img} />
+                    </Carousel.Item>
+                ))}
+            </Carousel>
+        )
+    }
+
+    let desc
+    if (item.description != "") {
+        desc = (<p className="text-light">
+            {item.description}
+        </p>)
+    } else {
+        desc = (<div></div>)
+    }
 
     if (item.description === "") {
         return (
@@ -40,14 +65,12 @@ const ItemPage = (prop: any) => {
     } else {
         return (
             <Container className='content'>
-                <img src={require(`./images/pages/${item.image}`)}/>
+                {imgs}
                 <h1 className="text-light">
                     {item.name}
                 </h1>
-                <hr />
-                <p className="text-light">
-                    {item.description}
-                </p>
+                <hr/>
+                {desc}
                 <Link to="/portfolio">
                     <Button variant="secondary">Back</Button>
                 </Link>
