@@ -2,7 +2,7 @@
   "name": "studio52",
   "version": "0.1.0",
   "description": "A portfolio website created for Channel Campisi",
-  "homepage": "https://github.com/Stephan-kashkarov/studio52#readme",
+  "homepage": "https://stephan-kashkarov.github.io/studio52",
   "private": true,
   "dependencies": {
     "@types/jest": "24.0.18",
@@ -20,7 +20,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "yarn run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
