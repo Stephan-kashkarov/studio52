@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/Stephan-kashkarov/studio52/static/css/main.72acc5e3.chunk.css",
+    "main.js": "/Stephan-kashkarov/studio52/static/js/main.8dd895f0.chunk.js",
+    "main.js.map": "/Stephan-kashkarov/studio52/static/js/main.8dd895f0.chunk.js.map",
+    "runtime-main.js": "/Stephan-kashkarov/studio52/static/js/runtime-main.9bf706a6.js",
+    "runtime-main.js.map": "/Stephan-kashkarov/studio52/static/js/runtime-main.9bf706a6.js.map",
+    "static/css/2.0624914a.chunk.css": "/Stephan-kashkarov/studio52/static/css/2.0624914a.chunk.css",
+    "static/js/2.d13b80f6.chunk.js": "/Stephan-kashkarov/studio52/static/js/2.d13b80f6.chunk.js",
+    "static/js/2.d13b80f6.chunk.js.map": "/Stephan-kashkarov/studio52/static/js/2.d13b80f6.chunk.js.map",
+    "index.html": "/Stephan-kashkarov/studio52/index.html",
+    "precache-manifest.718dd93e9067ab2012f194b258e0aa8b.js": "/Stephan-kashkarov/studio52/precache-manifest.718dd93e9067ab2012f194b258e0aa8b.js",
+    "service-worker.js": "/Stephan-kashkarov/studio52/service-worker.js",
+    "static/css/2.0624914a.chunk.css.map": "/Stephan-kashkarov/studio52/static/css/2.0624914a.chunk.css.map",
+    "static/css/main.72acc5e3.chunk.css.map": "/Stephan-kashkarov/studio52/static/css/main.72acc5e3.chunk.css.map",
+    "static/media/ArtsAndDesignExhibition.svg": "/Stephan-kashkarov/studio52/static/media/ArtsAndDesignExhibition.469c00cc.svg",
+    "static/media/Chanelbusinesscard.png": "/Stephan-kashkarov/studio52/static/media/Chanelbusinesscard.00d834b1.png",
+    "static/media/Digitalinterface.svg": "/Stephan-kashkarov/studio52/static/media/Digitalinterface.03ec4760.svg",
+    "static/media/Dragon.svg": "/Stephan-kashkarov/studio52/static/media/Dragon.65838113.svg",
+    "static/media/Lineup.svg": "/Stephan-kashkarov/studio52/static/media/Lineup.2f324176.svg",
+    "static/media/Matriarch_Logo.svg": "/Stephan-kashkarov/studio52/static/media/Matriarch_Logo.64b2bec9.svg",
+    "static/media/People.png": "/Stephan-kashkarov/studio52/static/media/People.a75253c2.png",
+    "static/media/PortraitTypographyPoster-1.png": "/Stephan-kashkarov/studio52/static/media/PortraitTypographyPoster-1.1a4e41e2.png",
+    "static/media/Poster.png": "/Stephan-kashkarov/studio52/static/media/Poster.24c60076.png",
+    "static/media/SHM_Business_Card.png": "/Stephan-kashkarov/studio52/static/media/SHM_Business_Card.660b7d27.png",
+    "static/media/SHM_logo_final.png": "/Stephan-kashkarov/studio52/static/media/SHM_logo_final.41d07ef3.png",
+    "static/media/Tshirt.jpg": "/Stephan-kashkarov/studio52/static/media/Tshirt.20cfb829.jpg",
+    "static/media/TypographyIllustration.png": "/Stephan-kashkarov/studio52/static/media/TypographyIllustration.62ef0991.png",
+    "static/media/logo.svg": "/Stephan-kashkarov/studio52/static/media/logo.ef8cb101.svg",
+    "static/media/title-logo.svg": "/Stephan-kashkarov/studio52/static/media/title-logo.9f0aa074.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9bf706a6.js",
+    "static/css/2.0624914a.chunk.css",
+    "static/js/2.d13b80f6.chunk.js",
+    "static/css/main.72acc5e3.chunk.css",
+    "static/js/main.8dd895f0.chunk.js"
+  ]
+}
