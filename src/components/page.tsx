@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {FC} from 'react'
 import { Link } from 'react-router-dom'
 import {Container, Button, Carousel} from 'react-bootstrap'
 import { Item } from './portfolio'
@@ -25,7 +25,7 @@ function find(object: Array<Item>, key: number): Item {
     return def
 }
 
-const ItemPage = (prop: any) => {
+const ItemPage: FC = (prop: any) => {
     let item: Item = find(items, +prop.match.params.id)
 
     let imgs = <div></div>

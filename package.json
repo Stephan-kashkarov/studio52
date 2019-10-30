@@ -2,6 +2,7 @@
   "name": "studio52",
   "version": "0.1.0",
   "description": "A portfolio website created for Channel Campisi",
+  "homepage": "https://github.com/Stephan-kashkarov/studio52#readme",
   "private": true,
   "dependencies": {
     "@types/jest": "24.0.18",
@@ -9,6 +10,7 @@
     "@types/react": "16.9.5",
     "@types/react-dom": "16.9.1",
     "bootstrap": "^4.3.1",
+    "gh-pages": "^2.1.1",
     "react": "^16.10.2",
     "react-bootstrap": "^1.0.0-beta.14",
     "react-dom": "^16.10.2",
@@ -18,6 +20,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "test:tsc": "tsc -p tsconfig.test.json -w",
@@ -47,7 +51,6 @@
   "bugs": {
     "url": "https://github.com/Stephan-kashkarov/studio52/issues"
   },
-  "homepage": "https://github.com/Stephan-kashkarov/studio52#readme",
   "devDependencies": {
     "@types/react-router-dom": "^5.1.0"
   }

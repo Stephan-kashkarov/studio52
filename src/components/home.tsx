@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {FC} from 'react';
 // import {Link} from 'react-router-dom';
 import {Container} from 'react-bootstrap';
 
@@ -6,7 +6,7 @@ import {Container} from 'react-bootstrap';
 import logo from './images/logo.svg';
 import './styles/home.css'
 
-const Home = () => (
+const Home: FC = () => (
     <Container className='logo-center'>
         <img className='svg-logo' src={logo} alt="Studio 52 logo" />
         {/* <div className="text">
