@@ -30,7 +30,7 @@ const Navigation: FC = () => (
                 </Nav.Link>
                 <Nav.Link href="">
                     <Link to="/contact" className='nav-elem'>
-                        Contact Us
+                        Contact
                     </Link>
                 </Nav.Link>
             </Nav>

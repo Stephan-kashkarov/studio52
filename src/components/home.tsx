@@ -1,6 +1,6 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
-import {Jumbotron, Container} from 'react-bootstrap';
+// import {Link} from 'react-router-dom';
+import {Container} from 'react-bootstrap';
 
 // Images
 import logo from './images/logo.svg';
@@ -9,7 +9,7 @@ import './styles/home.css'
 const Home = () => (
     <Container className='logo-center'>
         <img className='svg-logo' src={logo} alt="Studio 52 logo" />
-        <div className="text">
+        {/* <div className="text">
 
             <h1>Welcome</h1>
             <p>
@@ -21,10 +21,10 @@ const Home = () => (
                 Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
                 software like Aldus PageMaker including versions of Lorem Ipsum.
             </p>
-        </div>
-        <Jumbotron className='bg-dark'>
+        </div> */}
+        {/* <Jumbotron className='bg-dark'>
             Hello123
-        </Jumbotron>
+        </Jumbotron> */}
     </Container>
 )
 

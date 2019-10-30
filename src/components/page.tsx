@@ -32,14 +32,14 @@ const ItemPage = (prop: any) => {
 
     if (item.image.length === 1) {
         console.log(1)
-        imgs = (<img src={require(`./images/pages/${item.image[0]}`)} />)
+        imgs = (<img className="normal-img" src={require(`./images/pages/${item.image[0]}`)} />)
     } else {
         console.log(2)
         imgs = (
             <Carousel>
                 {item.image.map( (src_img) => (
                     <Carousel.Item>
-                        <img src={src_img} />
+                        <img className="carousel-img" src={require(`./images/pages/${src_img}`)} />
                     </Carousel.Item>
                 ))}
             </Carousel>
