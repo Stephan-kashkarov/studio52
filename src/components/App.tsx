@@ -33,7 +33,7 @@ const App: FC = () => (
 				<Portfolio items={items}/>
 			</Route>
 			<Route path='/contact'>
-
+				
 			</Route>
 			<Route path='/pages/:id' component={ItemPage}/>
 			<Route path='/' component={Home}/>

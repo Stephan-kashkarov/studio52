@@ -37,22 +37,13 @@ const ItemPage: FC = (prop: any) => {
         console.log(2)
         imgs = (
             <Carousel>
-                {item.image.map( (src_img) => (
+                {item.image.map((src_img) => (
                     <Carousel.Item>
                         <img className="carousel-img" src={require(`./images/pages/${src_img}`)} />
                     </Carousel.Item>
                 ))}
             </Carousel>
         )
-    }
-
-    let desc
-    if (item.description !== "") {
-        desc = (<p className="text-light text-content">
-            {item.description}
-        </p>)
-    } else {
-        desc = (<div></div>)
     }
 
     return (
@@ -62,7 +53,9 @@ const ItemPage: FC = (prop: any) => {
                 {item.name}
             </h1>
             <hr/>
-            {desc}
+            <p className="text-light text-content">
+                {item.description}
+            </p>
             <Link to="/portfolio">
                 <Button variant="secondary" className="Button">Back</Button>
             </Link>
