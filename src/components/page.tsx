@@ -58,13 +58,13 @@ const ItemPage: FC = (prop: any) => {
     return (
         <Container className='content'>
             {imgs}
-            <h1 className="text-light">
+            <h1 className="text-light title">
                 {item.name}
             </h1>
             <hr/>
             {desc}
-            <Link to="/portfolio">
-                <Button variant="secondary">Back</Button>
+            <Link to="/portfolio" >
+                <Button variant="secondary" className="Button">Back</Button>
             </Link>
         </Container>
     );
