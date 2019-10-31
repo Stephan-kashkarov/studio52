@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/studio52/static/css/main.72acc5e3.chunk.css",
-    "main.js": "/studio52/static/js/main.511e10aa.chunk.js",
-    "main.js.map": "/studio52/static/js/main.511e10aa.chunk.js.map",
+    "main.css": "/studio52/static/css/main.c6ab5e2f.chunk.css",
+    "main.js": "/studio52/static/js/main.becbaf43.chunk.js",
+    "main.js.map": "/studio52/static/js/main.becbaf43.chunk.js.map",
     "runtime-main.js": "/studio52/static/js/runtime-main.6e29c794.js",
     "runtime-main.js.map": "/studio52/static/js/runtime-main.6e29c794.js.map",
     "static/css/2.0624914a.chunk.css": "/studio52/static/css/2.0624914a.chunk.css",
-    "static/js/2.d13b80f6.chunk.js": "/studio52/static/js/2.d13b80f6.chunk.js",
-    "static/js/2.d13b80f6.chunk.js.map": "/studio52/static/js/2.d13b80f6.chunk.js.map",
+    "static/js/2.c6b3b91d.chunk.js": "/studio52/static/js/2.c6b3b91d.chunk.js",
+    "static/js/2.c6b3b91d.chunk.js.map": "/studio52/static/js/2.c6b3b91d.chunk.js.map",
     "index.html": "/studio52/index.html",
-    "precache-manifest.23d08c1d8f9ca8e3d3920cd7571d1715.js": "/studio52/precache-manifest.23d08c1d8f9ca8e3d3920cd7571d1715.js",
+    "precache-manifest.45b7c2675e18551a616ebba5deaf138f.js": "/studio52/precache-manifest.45b7c2675e18551a616ebba5deaf138f.js",
     "service-worker.js": "/studio52/service-worker.js",
     "static/css/2.0624914a.chunk.css.map": "/studio52/static/css/2.0624914a.chunk.css.map",
-    "static/css/main.72acc5e3.chunk.css.map": "/studio52/static/css/main.72acc5e3.chunk.css.map",
+    "static/css/main.c6ab5e2f.chunk.css.map": "/studio52/static/css/main.c6ab5e2f.chunk.css.map",
     "static/media/ArtsAndDesignExhibition.svg": "/studio52/static/media/ArtsAndDesignExhibition.469c00cc.svg",
     "static/media/Chanelbusinesscard.png": "/studio52/static/media/Chanelbusinesscard.00d834b1.png",
     "static/media/Digitalinterface.svg": "/studio52/static/media/Digitalinterface.03ec4760.svg",
@@ -26,14 +26,15 @@
     "static/media/SHM_logo_final.png": "/studio52/static/media/SHM_logo_final.41d07ef3.png",
     "static/media/Tshirt.jpg": "/studio52/static/media/Tshirt.20cfb829.jpg",
     "static/media/TypographyIllustration.png": "/studio52/static/media/TypographyIllustration.62ef0991.png",
+    "static/media/c-t.png": "/studio52/static/media/c-t.1c393754.png",
     "static/media/logo.svg": "/studio52/static/media/logo.ef8cb101.svg",
     "static/media/title-logo.svg": "/studio52/static/media/title-logo.9f0aa074.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.6e29c794.js",
     "static/css/2.0624914a.chunk.css",
-    "static/js/2.d13b80f6.chunk.js",
-    "static/css/main.72acc5e3.chunk.css",
-    "static/js/main.511e10aa.chunk.js"
+    "static/js/2.c6b3b91d.chunk.js",
+    "static/css/main.c6ab5e2f.chunk.css",
+    "static/js/main.becbaf43.chunk.js"
   ]
 }
