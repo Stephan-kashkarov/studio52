@@ -9,7 +9,7 @@ body, .App #root{
 .logo-center {
   padding: 7% 0;
   text-align: center;
-  height: 80vh;
+  min-height: 80vh;
 }
 
 .svg-logo {
