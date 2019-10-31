@@ -33,7 +33,7 @@
         "id": 5,
         "name": "Sammy Hosking Mue Branding",
         "description": "This Branding was created for a makeup enthusiast (MUE) who wanted to bring her brand to life. The pink eye shape reflects makeup in an abstract way and the watercolour texture intends to mimic a makeup substance, whichever the viewer sees (eg lipstick smudged on the page or blended eyeshadow). The soft pink colour reflects the femininity and blush, which can make the target audience feel content or carefree.",
-        "image": ["SHM_logo_final.png", "SHM_Business_Card.png", "logo.png"]
+        "image": ["SHM_logo_final.png", "SHM_Business_Card.png", "SHMAPPOINTMENTCARD.png"]
     },
     {
         "id": 6,
@@ -45,7 +45,7 @@
         "id": 7,
         "name": "Fashion Magazine",
         "description": "",
-        "image": ["logo.png"]
+        "image": ["MAGAZINE.png"]
     },
     {
         "id": 8,
