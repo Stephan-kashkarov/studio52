@@ -48,7 +48,7 @@ const ItemPage: FC = (prop: any) => {
 
     let desc
     if (item.description !== "") {
-        desc = (<p className="text-light">
+        desc = (<p className="text-light text-content">
             {item.description}
         </p>)
     } else {
@@ -63,7 +63,7 @@ const ItemPage: FC = (prop: any) => {
             </h1>
             <hr/>
             {desc}
-            <Link to="/portfolio" >
+            <Link to="/portfolio">
                 <Button variant="secondary" className="Button">Back</Button>
             </Link>
         </Container>

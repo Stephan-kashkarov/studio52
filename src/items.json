@@ -15,7 +15,7 @@
         "id": 2,
         "name": "Chinese New Year T-Shirt Design",
         "description": "",
-        "image": ["Dragon.svg", "Tshirt.jpg"]
+        "image": ["Tshirt.jpg", "Dragon.svg"]
     },
     {
         "id": 3,

@@ -19,10 +19,10 @@ for (let i = 0; i < itemdata.length; i += 3) {
 			break;
 		}
 		let x: Item  = itemdata[i+j]
-		temp.unshift(x)
+		temp.push(x)
 
 	}
-	items.unshift(temp)
+	items.push(temp)
 }
 
 const App: FC = () => (
