@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/studio52/static/css/main.13f7e638.chunk.css",
-    "main.js": "/studio52/static/js/main.a882306d.chunk.js",
-    "main.js.map": "/studio52/static/js/main.a882306d.chunk.js.map",
+    "main.css": "/studio52/static/css/main.5d11bacb.chunk.css",
+    "main.js": "/studio52/static/js/main.67df179d.chunk.js",
+    "main.js.map": "/studio52/static/js/main.67df179d.chunk.js.map",
     "runtime-main.js": "/studio52/static/js/runtime-main.ce8bd80d.js",
     "runtime-main.js.map": "/studio52/static/js/runtime-main.ce8bd80d.js.map",
     "static/css/2.0624914a.chunk.css": "/studio52/static/css/2.0624914a.chunk.css",
-    "static/js/2.0a48164e.chunk.js": "/studio52/static/js/2.0a48164e.chunk.js",
-    "static/js/2.0a48164e.chunk.js.map": "/studio52/static/js/2.0a48164e.chunk.js.map",
+    "static/js/2.07fb5847.chunk.js": "/studio52/static/js/2.07fb5847.chunk.js",
+    "static/js/2.07fb5847.chunk.js.map": "/studio52/static/js/2.07fb5847.chunk.js.map",
     "index.html": "/studio52/index.html",
-    "precache-manifest.966d6fa9e75cce181cb984ee42347570.js": "/studio52/precache-manifest.966d6fa9e75cce181cb984ee42347570.js",
+    "precache-manifest.3b1cbe91b4258bdef70d6a0503055084.js": "/studio52/precache-manifest.3b1cbe91b4258bdef70d6a0503055084.js",
     "service-worker.js": "/studio52/service-worker.js",
     "static/css/2.0624914a.chunk.css.map": "/studio52/static/css/2.0624914a.chunk.css.map",
-    "static/css/main.13f7e638.chunk.css.map": "/studio52/static/css/main.13f7e638.chunk.css.map",
+    "static/css/main.5d11bacb.chunk.css.map": "/studio52/static/css/main.5d11bacb.chunk.css.map",
     "static/media/ArtsAndDesignExhibition.svg": "/studio52/static/media/ArtsAndDesignExhibition.469c00cc.svg",
     "static/media/Chanelbusinesscard.png": "/studio52/static/media/Chanelbusinesscard.00d834b1.png",
     "static/media/Digitalinterface.svg": "/studio52/static/media/Digitalinterface.03ec4760.svg",
@@ -21,7 +21,7 @@
     "static/media/Lineup.svg": "/studio52/static/media/Lineup.2f324176.svg",
     "static/media/MAGAZINE.png": "/studio52/static/media/MAGAZINE.4be9a933.png",
     "static/media/Matriarch_Logo.svg": "/studio52/static/media/Matriarch_Logo.64b2bec9.svg",
-    "static/media/People.png": "/studio52/static/media/People.bba857e4.png",
+    "static/media/People.png": "/studio52/static/media/People.694bd4b1.png",
     "static/media/PortraitTypographyPoster-1.png": "/studio52/static/media/PortraitTypographyPoster-1.1a4e41e2.png",
     "static/media/Poster.png": "/studio52/static/media/Poster.24c60076.png",
     "static/media/SHMAPPOINTMENTCARD.png": "/studio52/static/media/SHMAPPOINTMENTCARD.e2289222.png",
@@ -36,8 +36,8 @@
   "entrypoints": [
     "static/js/runtime-main.ce8bd80d.js",
     "static/css/2.0624914a.chunk.css",
-    "static/js/2.0a48164e.chunk.js",
-    "static/css/main.13f7e638.chunk.css",
-    "static/js/main.a882306d.chunk.js"
+    "static/js/2.07fb5847.chunk.js",
+    "static/css/main.5d11bacb.chunk.css",
+    "static/js/main.67df179d.chunk.js"
   ]
 }

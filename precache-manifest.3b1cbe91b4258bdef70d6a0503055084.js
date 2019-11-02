@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6f916bd01db522587458d09c9135882d",
+    "revision": "915dc9d28b4ef3ecca9aa6ca2e8fb4f3",
     "url": "/studio52/index.html"
   },
   {
-    "revision": "57fc0b8aee265a8d7ea4",
+    "revision": "87d0be0d6aae7b882507",
     "url": "/studio52/static/css/2.0624914a.chunk.css"
   },
   {
-    "revision": "4ace3fcfcdb7235eb7f2",
-    "url": "/studio52/static/css/main.13f7e638.chunk.css"
+    "revision": "ba84cb0da44fe8a91205",
+    "url": "/studio52/static/css/main.5d11bacb.chunk.css"
   },
   {
-    "revision": "57fc0b8aee265a8d7ea4",
-    "url": "/studio52/static/js/2.0a48164e.chunk.js"
+    "revision": "87d0be0d6aae7b882507",
+    "url": "/studio52/static/js/2.07fb5847.chunk.js"
   },
   {
-    "revision": "4ace3fcfcdb7235eb7f2",
-    "url": "/studio52/static/js/main.a882306d.chunk.js"
+    "revision": "ba84cb0da44fe8a91205",
+    "url": "/studio52/static/js/main.67df179d.chunk.js"
   },
   {
     "revision": "019731d6a909af5a7710",
@@ -56,8 +56,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/studio52/static/media/Matriarch_Logo.64b2bec9.svg"
   },
   {
-    "revision": "bba857e4ee36a2fb7ce3221342eecc06",
-    "url": "/studio52/static/media/People.bba857e4.png"
+    "revision": "694bd4b1e314a1b675458c1fb1443d62",
+    "url": "/studio52/static/media/People.694bd4b1.png"
   },
   {
     "revision": "1a4e41e22e85031029cd34e43053b9ff",
