@@ -1,8 +1,8 @@
 .-card {
     position: relative;
-    width: 30vh;
+    width: 25vh;
     text-align: center;
-    height: 30vh;
+    height: 25vh;
     display: block;
     padding-top: 100%;
     text-align: center;
@@ -58,11 +58,9 @@
 
 .card-row {
     text-align: center;
-    height: 30vh;
 }
 
 .column, .Col-link {
-    height: 30vh;
     text-align: center;
 }
 

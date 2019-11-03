@@ -39,18 +39,34 @@ const App: FC = () => (
 					<h1>
 						Contact Us!
 					</h1>
-					<Row>
-						<Col><FaPhone />   +61 449 004 212</Col>
-					</Row>
-					<Row>
-						<Col><FaEnvelope />   chanel.campisi@gmail.com</Col>
-					</Row>
-					<Row>
-						<Col><FaInstagram />   @Studio52Marketing</Col>
-					</Row>
-					<Row>
-						<Col><FaFacebook />   @Studio52Marketing</Col>
-					</Row>
+					<Container className="tablework">
+						<table>
+							<tr>
+								<td><FaPhone /></td>
+								<td>+61 449 004 212</td>
+							</tr>
+							<tr>
+								<td><FaEnvelope /> </td>
+								<td>chanel.campisi@gmail.com</td>
+							</tr>
+							<tr>
+								<td>
+									<FaInstagram />
+								</td>
+								<td>
+									@Studio52Marketing
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<FaFacebook />
+								</td>
+								<td>
+									@Studio52Marketing
+								</td>
+							</tr>
+						</table>
+					</Container>
 				</Container>
 			</Route>
 			<Route path='/pages/:id' component={ItemPage}/>

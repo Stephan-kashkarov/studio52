@@ -55,10 +55,6 @@ footer {
   text-align: left;
 }
 
-.p-top img {
-  /* width: 100%; */
-}
-
 .cardz {
   padding: 10%
 }
@@ -67,17 +63,30 @@ footer {
   padding: 20%;
   min-height: 80vh;
   color: white;
+  text-align: center;
 }
 
 .test h1 {
   font-size: 5rem;
-  text-align: center;
 }
 
-.test .col {
+.test td {
   font-size: 2rem;
-  padding-left: 20vw;
-  padding-top: 20px;
+  text-align: left;
+  padding: 4%;
+  
+}
+.test table {
+  margin-left:auto; 
+  margin-right:auto;
+}
+.tablework {
+  text-align: center;
+  width: 50%
+}
+
+.test tr {
+  text-align: center;
 }
 
 .people {
@@ -98,3 +107,4 @@ footer {
   padding: 0;
   border: 0;
 }
+
