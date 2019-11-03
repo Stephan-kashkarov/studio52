@@ -1,6 +1,6 @@
 import React, {FC} from 'react';
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-import {Row, Col, Container} from 'react-bootstrap';
+import {Container} from 'react-bootstrap';
 import Navigation from './navigation';
 import Portfolio, { Item } from './portfolio';
 import Home from './home';

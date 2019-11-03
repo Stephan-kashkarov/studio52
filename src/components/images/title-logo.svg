@@ -42,6 +42,11 @@
    inkscape:window-y="27"
    inkscape:window-maximized="1"
    inkscape:current-layer="Layer_1" />
+<defs>
+  <style type="text/css">
+   @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700&display=swap');
+  </style>
+</defs>
 <style
    type="text/css"
    id="style182">
