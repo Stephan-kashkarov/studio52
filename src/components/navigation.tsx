@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 
 // Assets
-import logo from './images/title-logo.svg';
+import logo from './images/title-logo.png';
 import './styles/navigation.css';
 
 const Navigation: FC = () => (
