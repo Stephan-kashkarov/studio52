@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import {Row, Col, Container} from 'react-bootstrap';
+import {Col, Container} from 'react-bootstrap';
 
 import "./styles/portfolio.css"
 
@@ -21,24 +21,24 @@ type PortfolioProps = {
 
 
 const Portfolio = (items: PortfolioProps) => (
-    <Container className="cards">
+    <table className="cards">
         { items.items.map((items: Item[]) => {
                 return (
-                    <Row className="card-row container-top">
+                    <tr className="card-row container-top">
                         {items.map((item: Item) => {
                             return (
-                                <Col className='centered column'>
+                                <td className='centered column'>
                                     <Link to={`/pages/${item.id}`} className="Col-link">
                                         <ItemCard item={item}/>
                                     </Link>
-                                </Col>
+                                </td>
                             )
                         })}
-                    </Row>
+                    </tr>
                 )
             }
         )}
-    </Container>
+    </table>
 )
 
 const ItemCard = (item: ItemCardProps) => (
