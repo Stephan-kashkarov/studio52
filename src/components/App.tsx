@@ -6,11 +6,11 @@ import Portfolio, { Item } from './portfolio';
 import Home from './home';
 import ItemPage from './page'
 
-import {FaInstagram, FaFacebook, FaEnvelope, FaPhone} from 'react-icons/fa'
 // Styles
 import './styles/App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import itemdata from "../items.json";
+import contact from "./images/pages/contact.png"
 
 let items: Item[][] = []
 
@@ -36,37 +36,7 @@ const App: FC = () => (
 			</Route>
 			<Route path='/contact'>
 				<Container className="test">
-					<h1>
-						Contact Us!
-					</h1>
-					<Container className="tablework">
-						<table>
-							<tr>
-								<td><FaPhone /></td>
-								<td>+61 449 004 212</td>
-							</tr>
-							<tr>
-								<td><FaEnvelope /> </td>
-								<td>chanel.campisi@gmail.com</td>
-							</tr>
-							<tr>
-								<td>
-									<FaInstagram />
-								</td>
-								<td>
-									@Studio52Marketing
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<FaFacebook />
-								</td>
-								<td>
-									@Studio52Marketing
-								</td>
-							</tr>
-						</table>
-					</Container>
+					<img src={contact}/>
 				</Container>
 			</Route>
 			<Route path='/pages/:id' component={ItemPage}/>
