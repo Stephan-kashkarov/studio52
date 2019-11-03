@@ -18,10 +18,13 @@
    sodipodi:docname="title-logo.svg"
    width="1700"
    height="485"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"><metadata
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   inkscape:export-filename="/home/stee/bitmap.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"><metadata
    id="metadata317"><rdf:RDF><cc:Work
        rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
    id="defs315" /><sodipodi:namedview
    pagecolor="#000000"
    bordercolor="#666666"
@@ -36,15 +39,19 @@
    id="namedview313"
    showgrid="false"
    inkscape:zoom="0.80736819"
-   inkscape:cx="1182.5815"
+   inkscape:cx="784.37408"
    inkscape:cy="319.02855"
    inkscape:window-x="0"
    inkscape:window-y="27"
    inkscape:window-maximized="1"
-   inkscape:current-layer="Layer_1" />
-<defs>
-  <style type="text/css">
-   @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700&display=swap');
+   inkscape:current-layer="Layer_1"
+   inkscape:pagecheckerboard="false" />
+<defs
+   id="defs15">
+  <style
+   type="text/css"
+   id="style13">
+   @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700=swap');
   </style>
 </defs>
 <style
@@ -102,7 +109,10 @@
 
 <g
    id="g383"
-   transform="translate(-0.4379085,-0.640523)"><path
+   transform="translate(-0.4379085,-0.640523)"
+   inkscape:export-filename="/home/stee/g383.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"><path
      style="fill:none;stroke:#00aaaa;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
      inkscape:connector-curvature="0"
      id="path184"
@@ -261,12 +271,12 @@
      id="g300">
 	<g
    id="g250">
-		<path
-   style="fill:#ffffff"
-   inkscape:connector-curvature="0"
-   id="path240"
-   d="m 349.6,385.6 c 0.8,0.8 0.6,1.7 0.3,2.6 -1.1,3.5 -2.4,6.9 -3.5,10.4 -0.5,1.6 -1.3,3.1 -0.7,4.9 0.1,0.2 -0.3,0.7 -0.5,0.7 -0.3,0 -0.8,-0.2 -0.9,-0.4 -0.2,-0.8 -0.4,-1.6 -0.2,-2.3 0.9,-3.4 2,-6.7 3.1,-10.1 0.4,-1.2 0.8,-2.3 1.3,-3.8 -15,8.6 -28.9,17.9 -42.2,28.5 0.7,-0.1 1.3,-0.2 2,-0.2 0.7,-0.1 1.4,-0.2 2.1,-0.3 5.1,-0.7 10.3,-1.5 15.4,-2 2.4,-0.2 4.9,0.1 7.2,0.5 2.4,0.4 4.2,1.8 5,4.3 3.5,-1 6.9,-2.1 10.4,-3.1 0.2,-0.1 0.4,-0.2 0.6,-0.2 0.4,0.1 0.8,0.3 1.2,0.4 -0.3,0.3 -0.5,0.8 -0.8,0.9 -3.1,1 -6.2,2 -9.3,2.8 -1.4,0.4 -2.2,1 -2.9,2.4 -1.3,3.1 -3.6,5.4 -6,7.7 -9.3,8.6 -19.6,15.7 -31.5,20.3 -1.9,0.7 -3.9,1.1 -5.9,1.3 -2.4,0.2 -3.4,-1.4 -2.7,-3.7 0.7,-2.3 2.2,-4.2 3.9,-5.8 5.5,-5.5 12.1,-9.6 18.9,-13.2 6.9,-3.6 14.1,-6.5 21.4,-8.9 0.4,-0.1 0.9,-0.3 1.4,-0.5 -0.3,-1.4 -1.2,-2.3 -2.4,-2.9 -2.4,-1.1 -4.9,-1.3 -7.4,-1 -7.4,0.8 -14.8,1.9 -22.2,2.9 -0.3,0 -0.6,0.1 -1,0.1 -0.4,-0.1 -0.8,-0.2 -1.2,-0.4 0.2,-0.4 0.3,-0.9 0.7,-1.1 5.5,-4.1 10.9,-8.3 16.5,-12.3 9.1,-6.5 18.5,-12.4 28.2,-17.9 0.3,-0.2 0.6,-0.4 0.9,-0.7 0.3,0.1 0.6,0.1 0.8,0.1 z m -13.2,35.2 c -0.6,0.1 -0.8,0.1 -1.1,0.2 -8.6,2.9 -16.9,6.3 -24.7,10.9 -5.4,3.2 -10.7,6.5 -14.9,11.2 -1.3,1.4 -2.2,3.1 -3.1,4.8 -0.6,1.1 0,1.8 1.3,1.9 0.4,0 0.9,0 1.3,-0.1 1.6,-0.5 3.3,-0.8 4.9,-1.5 8.5,-3.3 16.1,-8.2 23.3,-13.7 4.2,-3.2 8.3,-6.7 11.4,-11.1 0.5,-0.8 1,-1.6 1.6,-2.6 z"
-   class="st12" />
+		path
+   style=&quot;fill:#ffffff&quot;
+   inkscape:connector-curvature=&quot;0&quot;
+   id=&quot;path240&quot;
+   d=&quot;m 349.6,385.6 c 0.8,0.8 0.6,1.7 0.3,2.6 -1.1,3.5 -2.4,6.9 -3.5,10.4 -0.5,1.6 -1.3,3.1 -0.7,4.9 0.1,0.2 -0.3,0.7 -0.5,0.7 -0.3,0 -0.8,-0.2 -0.9,-0.4 -0.2,-0.8 -0.4,-1.6 -0.2,-2.3 0.9,-3.4 2,-6.7 3.1,-10.1 0.4,-1.2 0.8,-2.3 1.3,-3.8 -15,8.6 -28.9,17.9 -42.2,28.5 0.7,-0.1 1.3,-0.2 2,-0.2 0.7,-0.1 1.4,-0.2 2.1,-0.3 5.1,-0.7 10.3,-1.5 15.4,-2 2.4,-0.2 4.9,0.1 7.2,0.5 2.4,0.4 4.2,1.8 5,4.3 3.5,-1 6.9,-2.1 10.4,-3.1 0.2,-0.1 0.4,-0.2 0.6,-0.2 0.4,0.1 0.8,0.3 1.2,0.4 -0.3,0.3 -0.5,0.8 -0.8,0.9 -3.1,1 -6.2,2 -9.3,2.8 -1.4,0.4 -2.2,1 -2.9,2.4 -1.3,3.1 -3.6,5.4 -6,7.7 -9.3,8.6 -19.6,15.7 -31.5,20.3 -1.9,0.7 -3.9,1.1 -5.9,1.3 -2.4,0.2 -3.4,-1.4 -2.7,-3.7 0.7,-2.3 2.2,-4.2 3.9,-5.8 5.5,-5.5 12.1,-9.6 18.9,-13.2 6.9,-3.6 14.1,-6.5 21.4,-8.9 0.4,-0.1 0.9,-0.3 1.4,-0.5 -0.3,-1.4 -1.2,-2.3 -2.4,-2.9 -2.4,-1.1 -4.9,-1.3 -7.4,-1 -7.4,0.8 -14.8,1.9 -22.2,2.9 -0.3,0 -0.6,0.1 -1,0.1 -0.4,-0.1 -0.8,-0.2 -1.2,-0.4 0.2,-0.4 0.3,-0.9 0.7,-1.1 5.5,-4.1 10.9,-8.3 16.5,-12.3 9.1,-6.5 18.5,-12.4 28.2,-17.9 0.3,-0.2 0.6,-0.4 0.9,-0.7 0.3,0.1 0.6,0.1 0.8,0.1 z m -13.2,35.2 c -0.6,0.1 -0.8,0.1 -1.1,0.2 -8.6,2.9 -16.9,6.3 -24.7,10.9 -5.4,3.2 -10.7,6.5 -14.9,11.2 -1.3,1.4 -2.2,3.1 -3.1,4.8 -0.6,1.1 0,1.8 1.3,1.9 0.4,0 0.9,0 1.3,-0.1 1.6,-0.5 3.3,-0.8 4.9,-1.5 8.5,-3.3 16.1,-8.2 23.3,-13.7 4.2,-3.2 8.3,-6.7 11.4,-11.1 0.5,-0.8 1,-1.6 1.6,-2.6 z&quot;
+   class=&quot;st12&quot; /&gt;
 		<path
    style="fill:#ffffff"
    inkscape:connector-curvature="0"
@@ -420,39 +430,44 @@
      class="st15" /></g>
 <text
    xml:space="preserve"
-   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:165.84712219px;line-height:1.25;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:4.14636469"
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:165.84712219px;line-height:1.25;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#f9f9f9;fill-opacity:1;stroke:none;stroke-width:4.14636469;"
    x="618.05939"
    y="204.43752"
-   id="text4182"><tspan
+   id="text4182"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"><tspan
      sodipodi:role="line"
      x="618.05939"
      y="204.43752"
      id="tspan4176"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:165.84712219px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:4.14636469"><tspan
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:165.84712219px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:4.14636469;fill:#f9f9f9;"><tspan
        x="618.05939"
        y="204.43752"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:165.84712219px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:4.14636469"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:165.84712219px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:4.14636469;fill:#f9f9f9;"
        id="tspan4172">Studio 52</tspan><tspan
        dx="0"
        x="1406.884"
        y="204.43752"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:165.84712219px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:4.14636469"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:165.84712219px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:4.14636469;fill:#f9f9f9;"
        id="tspan4174" /></tspan><tspan
      sodipodi:role="line"
      x="618.05939"
      y="438.90536"
      id="tspan4180"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:165.84712219px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:4.14636469"><tspan
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:165.84712219px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:4.14636469;fill:#f9f9f9;"><tspan
        x="618.05939"
        y="438.90536"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:165.84712219px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:4.14636469"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:165.84712219px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:4.14636469;fill:#f9f9f9;"
        id="tspan4178">Marketing Agency</tspan></tspan></text>
 
 
+
 <rect
-   style="fill:#ffffff;stroke-width:1.22831559"
+   style="fill:#f9f9f9;stroke-width:1.22831559"
    id="rect413"
    width="1192.7643"
    height="13.624515"
    x="615.18134"
-   y="520.41064" /></svg>
+   y="520.41064"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96" /></svg>
