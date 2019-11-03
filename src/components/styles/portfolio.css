@@ -58,6 +58,7 @@
 
 .card-row {
     text-align: center;
+    padding: 0 10% 10% 0;
 }
 
 .column, .Col-link {
@@ -69,4 +70,8 @@
 
 .cards {
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    padding-top: 10%;
 }
