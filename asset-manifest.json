@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/studio52/static/css/main.1b872b25.chunk.css",
-    "main.js": "/studio52/static/js/main.aae44f8e.chunk.js",
-    "main.js.map": "/studio52/static/js/main.aae44f8e.chunk.js.map",
+    "main.css": "/studio52/static/css/main.8ae65d85.chunk.css",
+    "main.js": "/studio52/static/js/main.c4a0c03a.chunk.js",
+    "main.js.map": "/studio52/static/js/main.c4a0c03a.chunk.js.map",
     "runtime-main.js": "/studio52/static/js/runtime-main.ce8bd80d.js",
     "runtime-main.js.map": "/studio52/static/js/runtime-main.ce8bd80d.js.map",
     "static/css/2.0624914a.chunk.css": "/studio52/static/css/2.0624914a.chunk.css",
-    "static/js/2.07fb5847.chunk.js": "/studio52/static/js/2.07fb5847.chunk.js",
-    "static/js/2.07fb5847.chunk.js.map": "/studio52/static/js/2.07fb5847.chunk.js.map",
+    "static/js/2.52a97d9e.chunk.js": "/studio52/static/js/2.52a97d9e.chunk.js",
+    "static/js/2.52a97d9e.chunk.js.map": "/studio52/static/js/2.52a97d9e.chunk.js.map",
     "index.html": "/studio52/index.html",
-    "precache-manifest.0d5bf26de11fad37c2bf1ef8ca9be64f.js": "/studio52/precache-manifest.0d5bf26de11fad37c2bf1ef8ca9be64f.js",
+    "precache-manifest.1dc082837a5e3f96cf57dd37a5ddbf2f.js": "/studio52/precache-manifest.1dc082837a5e3f96cf57dd37a5ddbf2f.js",
     "service-worker.js": "/studio52/service-worker.js",
     "static/css/2.0624914a.chunk.css.map": "/studio52/static/css/2.0624914a.chunk.css.map",
-    "static/css/main.1b872b25.chunk.css.map": "/studio52/static/css/main.1b872b25.chunk.css.map",
+    "static/css/main.8ae65d85.chunk.css.map": "/studio52/static/css/main.8ae65d85.chunk.css.map",
     "static/media/ArtsAndDesignExhibition.svg": "/studio52/static/media/ArtsAndDesignExhibition.469c00cc.svg",
     "static/media/Chanelbusinesscard.png": "/studio52/static/media/Chanelbusinesscard.00d834b1.png",
     "static/media/Digitalinterface.svg": "/studio52/static/media/Digitalinterface.03ec4760.svg",
@@ -30,14 +30,15 @@
     "static/media/Tshirt.jpg": "/studio52/static/media/Tshirt.20cfb829.jpg",
     "static/media/TypographyIllustration.png": "/studio52/static/media/TypographyIllustration.62ef0991.png",
     "static/media/c-t.png": "/studio52/static/media/c-t.1c393754.png",
+    "static/media/contact.png": "/studio52/static/media/contact.1236b9f8.png",
     "static/media/logo.svg": "/studio52/static/media/logo.ef8cb101.svg",
-    "static/media/title-logo.svg": "/studio52/static/media/title-logo.27d12a8a.svg"
+    "static/media/title-logo.png": "/studio52/static/media/title-logo.1ff65a31.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ce8bd80d.js",
     "static/css/2.0624914a.chunk.css",
-    "static/js/2.07fb5847.chunk.js",
-    "static/css/main.1b872b25.chunk.css",
-    "static/js/main.aae44f8e.chunk.js"
+    "static/js/2.52a97d9e.chunk.js",
+    "static/css/main.8ae65d85.chunk.css",
+    "static/js/main.c4a0c03a.chunk.js"
   ]
 }
