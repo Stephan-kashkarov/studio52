@@ -1,8 +1,8 @@
 .-card {
     position: relative;
-    width: 25vh;
+    width: 350px;
     text-align: center;
-    height: 25vh;
+    height: 350px;
     display: block;
     padding-top: 100%;
     text-align: center;
@@ -13,7 +13,7 @@
     position: absolute;
     border-radius: 3px 3px;
     text-align: center;
-    height: 25vh !important;
+    height: 350px !important;
     width: 100%;
     top: 0;
     left: 0;

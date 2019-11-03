@@ -60,7 +60,7 @@ footer {
 }
 
 .test {
-  padding: 20%;
+  padding: 10%;
   min-height: 80vh;
   color: white;
   text-align: center;
@@ -73,7 +73,7 @@ footer {
 .test td {
   font-size: 2rem;
   text-align: left;
-  padding: 4%;
+  padding: 4% !important;
   
 }
 .test table {
