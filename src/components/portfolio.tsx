@@ -28,7 +28,7 @@ const Portfolio = (items: PortfolioProps) => (
                         {items.map((item: Item) => {
                             return (
                                 <Col className='centered column'>
-                                    <Link to={`/pages/${item.id}`}>
+                                    <Link to={`/pages/${item.id}`} className="Col-link">
                                         <ItemCard item={item}/>
                                     </Link>
                                 </Col>
