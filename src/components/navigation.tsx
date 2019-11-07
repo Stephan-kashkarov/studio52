@@ -9,14 +9,16 @@ import './styles/navigation.css';
 const Navigation: FC = () => (
     <Navbar bg="dark" variant="dark">
         <Container>
-            <Navbar.Brand href="#home">
-                <img
-                    alt="logo"
-                    src={logo}
-                    height="50"
-                    className="d-inline-block align-top"
-                />
-            </Navbar.Brand>
+            <Link to="/">
+                <Navbar.Brand href="">
+                    <img
+                        alt="logo"
+                        src={logo}
+                        height="50"
+                        className="d-inline-block align-top"
+                    />
+                </Navbar.Brand>
+            </Link>
             <Nav className="ml-auto">
                 <Nav.Link href="">
                     <Link to="/" className='nav-elem'>
